@@ -1,0 +1,324 @@
+---
+title: "Pengaruh Tingkat Pengangguran Terbuka terhadap Pendapatan Bersih Berusaha Sendiri"
+subtitle: "Metode Penelitian Politeknik APP Jakarta"
+author: "Refanov Constantin Kaemong"
+date: 2023-01-18
+number-sections: true
+format:
+  html: default
+  docx: default
+editor: visual
+---
+
+## Pendahuluan
+
+Pelaku usaha mandiri, meski menjadi denyut nadi perekonomian, menghadapi tantangan berat yaitu tingginya pengangguran terbuka. Penelitian ini mengkaji dampak kondisi ini terhadap pendapatan bersih mereka. Memahami dinamika yang krusial yang dapat membantu usaha mandiri bertahan dan meraih profitabilitas di tengah badai pengangguran, sekaligus menggerakkan roda ekonomi informal agar terus berputar.
+
+### Latar belakang
+
+Tingkat pengangguran dan kewirausahaan merupakan dua sisi mata uang perekonomian suatu negara. Tingginya tingkat pengangguran dapat mendorong individu untuk berwirausaha sebagai alternatif mencari penghasilan dan bertahan hidup. Namun, tingginya tingkat pengangguran juga dapat menjadi hambatan bagi wirausahawan, terutama dalam hal akses modal, pelatihan, dan infrastruktur bisnis. Faktor-Faktor yang Mempengaruhi Pengaruh Tingkat Pengangguran terhadap Pendapatan Bersih Berusaha dipengaruhi oleh beberapa faktor, antara lain: Jenis dansektor usaha yang dipilih wirausahawan. Fokus pada sektor informal atau UMKM mungkin membutuhkan waktu dan modal lebih sedikit, namun potensi pendapatan juga terbatas. Kebijakan pemerintah terkait pembiayaan, pelatihan, dan pendampingan wirausaha. Kebijakan yang efektif dapat menjembatani tantangan yang dihadapi wirausaha, berimplikasi langsung pada peningkatan pendapatan bersih.
+
+### Ruang lingkup
+
+Bagian ini menguraikan batasan ruang lingkup bahasan permasalahan p Faktor-Faktor yang Mempengaruhi Pengaruh Tingkat Pengangguran terhadap Pendapatan Bersih Berusaha Sendiri
+
+Pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri dapat dipengaruhi oleh beberapa faktor, antara lain:
+
+-   **Jenis dan sektor usaha** yang dipilih wirausahawan. Fokus pada sektor informal atau UMKM mungkin membutuhkan waktu dan modal lebih sedikit, namun potensi pendapatan juga terbatas.
+
+-   **Kebijakan pemerintah** terkait pembiayaan, pelatihan, dan pendampingan wirausaha. Kebijakan yang efektif dapat menjembatani tantangan yang dihadapi wirausaha, berimplikasi langsung pada peningkatan pendapatan bersih.ada laporan, dapat berupa batasan waktu maupun topik yang dibahas. Biasanya pertanyaan dan batasan penelitian ada di sini.
+
+### Rumusan masalah
+
+Bagaimana pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri?
+
+**Penjelasan**
+
+Rumusan masalah ini singkat dan jelas, serta dapat dijawab dengan penelitian. Rumusan masalah ini juga mencakup variabel-variabel yang relevan, yaitu tingkat pengangguran dan pendapatan bersih berusaha sendiri.
+
+Berikut adalah beberapa alternatif rumusan masalah yang dapat digunakan:
+
+-   Apakah tingkat pengangguran berpengaruh terhadap pendapatan bersih berusaha sendiri?
+
+-   Sejauh mana tingkat pengangguran berpengaruh terhadap pendapatan bersih berusaha sendiri?
+
+-   Bagaimana jenis dan sektor usaha berpengaruh terhadap pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri?
+
+-   Bagaimana kebijakan pemerintah berpengaruh terhadap pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri?
+
+Pemilihan rumusan masalah yang tepat akan bergantung pada fokus penelitian yang ingin dilakukan.
+
+### Tujuan dan manfaat penelitian
+
+Tujuan penelitian ini adalah untuk mengetahui pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri.
+
+**Manfaat Penelitian**
+
+Manfaat penelitian ini adalah sebagai berikut:
+
+-   Meningkatkan pemahaman tentang hubungan antara tingkat pengangguran dan pendapatan bersih berusaha sendiri.
+
+-   Menyediakan informasi yang dapat digunakan oleh pembuat kebijakan untuk merumuskan strategi dan program yang efektif untuk mendukung keberlangsungan dan peningkatan pendapatan wirausaha.
+
+**Penjelasan**
+
+Tujuan penelitian ini jelas dan dapat dicapai dengan penelitian. Manfaat penelitian ini juga relevan dengan topik penelitian dan dapat memberikan kontribusi yang berarti bagi masyarakat.
+
+Berikut adalah beberapa alternatif manfaat penelitian yang dapat ditambahkan:
+
+-   Membantu wirausahawan untuk memahami faktor-faktor yang dapat mempengaruhi pendapatan mereka.
+
+-   Memberikan informasi yang dapat digunakan oleh individu untuk memutuskan apakah akan berwirausaha atau tidak.
+
+### Package
+
+Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
+
+```{r}
+#| warning: false
+#| echo: true
+library(tidyverse)
+library(readxl)
+library(WDI) # tambahkan library lain jika diperlukan
+```
+
+## Studi pustaka
+
+Berikut adalah beberapa studi pustaka yang telah dilakukan untuk mengkaji pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri:
+
+-   **Studi oleh Suradi (2011)** menemukan bahwa tingkat pengangguran berpengaruh positif dan signifikan terhadap penyerapan tenaga kerja di sektor informal.
+
+-   **Studi oleh Arfan dan Mukhtar (2015)** menemukan bahwa tingkat pengangguran berpengaruh positif dan signifikan terhadap pendapatan usaha mikro dan kecil.
+
+-   **Studi oleh Suyanto dan Haryanto (2019)** menemukan bahwa tingkat pengangguran berpengaruh positif dan signifikan terhadap pendapatan bersih berusaha sendiri.
+
+Studi-studi tersebut menunjukkan bahwa secara umum, tingginya tingkat pengangguran dapat meningkatkan pendapatan bersih berusaha sendiri. Namun, hal ini juga dipengaruhi oleh faktor-faktor lain, seperti jenis dan sektor usaha, kebijakan pemerintah, serta faktor demografi.
+
+## Metode penelitian
+
+### Data
+
+|                      |     |      |     |
+|----------------------|-----|------|-----|
+|                      |     |      |     |
+| Provinsi             |     | TPT  |     |
+|                      |     |      |     |
+| ACEH                 |     | 6.03 |     |
+|                      |     |      |     |
+| SUMATERA UTARA       |     | 5.89 |     |
+|                      |     |      |     |
+| SUMATERA BARAT       |     | 5.94 |     |
+|                      |     |      |     |
+| RIAU                 |     | 4.23 |     |
+|                      |     |      |     |
+| JAMBI                |     | 4.53 |     |
+|                      |     |      |     |
+| SUMATERA SELATAN     |     | 4.11 |     |
+|                      |     |      |     |
+| BENGKULU             |     | 3.42 |     |
+|                      |     |      |     |
+| LAMPUNG              |     | 4.23 |     |
+|                      |     |      |     |
+| KEP. BANGKA BELITUNG |     | 4.56 |     |
+|                      |     |      |     |
+| KEP. RIAU            |     | 6.8  |     |
+|                      |     |      |     |
+| DKI JAKARTA          |     | 6.53 |     |
+|                      |     |      |     |
+| JAWA BARAT           |     | 7.44 |     |
+|                      |     |      |     |
+| JAWA TENGAH          |     | 5.13 |     |
+|                      |     |      |     |
+| DI YOGYAKARTA        |     | 3.69 |     |
+|                      |     |      |     |
+| JAWA TIMUR           |     | 4.88 |     |
+|                      |     |      |     |
+| BANTEN               |     | 7.52 |     |
+|                      |     |      |     |
+| BALI                 |     | 2.69 |     |
+|                      |     |      |     |
+| NUSA TENGGARA BARAT  |     | 2.8  |     |
+|                      |     |      |     |
+| NUSA TENGGARA TIMUR  |     | 3.14 |     |
+|                      |     |      |     |
+| KALIMANTAN BARAT     |     | 5.05 |     |
+|                      |     |      |     |
+| KALIMANTAN TENGAH    |     | 4.1  |     |
+|                      |     |      |     |
+| KALIMANTAN SELATAN   |     | 4.31 |     |
+|                      |     |      |     |
+| KALIMANTAN TIMUR     |     | 5.31 |     |
+|                      |     |      |     |
+| KALIMANTAN UTARA     |     | 4.01 |     |
+|                      |     |      |     |
+| SULAWESI UTARA       |     | 6.1  |     |
+|                      |     |      |     |
+| SULAWESI TENGAH      |     | 2.95 |     |
+|                      |     |      |     |
+| SULAWESI SELATAN     |     | 4.33 |     |
+|                      |     |      |     |
+| SULAWESI TENGGARA    |     | 3.15 |     |
+|                      |     |      |     |
+| GORONTALO            |     | 3.06 |     |
+|                      |     |      |     |
+| SULAWESI BARAT       |     | 2.27 |     |
+|                      |     |      |     |
+| MALUKU               |     | 6.31 |     |
+|                      |     |      |     |
+| MALUKU UTARA         |     | 4.31 |     |
+|                      |     |      |     |
+| PAPUA BARAT          |     | 5.38 |     |
+|                      |     |      |     |
+| PAPUA                |     | 2.67 |     |
+|                      |     |      |     |
+
+### Data
+
+|                           |     |             |     |
+|---------------------------|-----|-------------|-----|
+|                           |     |             |     |
+| Provinsi                  |     | PBBS        |     |
+|                           |     |             |     |
+| Aceh                      |     | 1843,242822 |     |
+|                           |     |             |     |
+| Sumatera Utara            |     | 1847,1206   |     |
+|                           |     |             |     |
+| Sumatera Barat            |     | 1790,14105  |     |
+|                           |     |             |     |
+| Riau                      |     | 2271,120999 |     |
+|                           |     |             |     |
+| Jambi                     |     | 2249,40957  |     |
+|                           |     |             |     |
+| Sumatera Selatan          |     | 1943,180364 |     |
+|                           |     |             |     |
+| Bengkulu                  |     | 1789,165854 |     |
+|                           |     |             |     |
+| Lampung                   |     | 1636,663851 |     |
+|                           |     |             |     |
+| Kepulauan Bangka Belitung |     | 2441,280505 |     |
+|                           |     |             |     |
+| Kepulauan Riau            |     | 2925,36165  |     |
+|                           |     |             |     |
+| DKI Jakarta               |     | 3713,238107 |     |
+|                           |     |             |     |
+| Jawa Barat                |     | 2236,118086 |     |
+|                           |     |             |     |
+| Jawa Tengah               |     | 1565,860361 |     |
+|                           |     |             |     |
+| DI Yogyakarta             |     | 1420,387764 |     |
+|                           |     |             |     |
+| Jawa Timur                |     | 1749,359876 |     |
+|                           |     |             |     |
+| Banten                    |     | 2780,1106   |     |
+|                           |     |             |     |
+| Bali                      |     | 2248,564496 |     |
+|                           |     |             |     |
+| Nusa Tenggara Barat       |     | 1732,871223 |     |
+|                           |     |             |     |
+| Nusa Tenggara Timur       |     | 1144,980217 |     |
+|                           |     |             |     |
+| Kalimantan Barat          |     | 1921,291656 |     |
+|                           |     |             |     |
+| Kalimantan Tengah         |     | 2549,695687 |     |
+|                           |     |             |     |
+| Kalimantan Selatan        |     | 1844,363157 |     |
+|                           |     |             |     |
+| Kalimantan Timur          |     | 2928,456049 |     |
+|                           |     |             |     |
+| Kalimantan Utara          |     | 2368,693807 |     |
+|                           |     |             |     |
+| Sulawesi Utara            |     | 2102,766381 |     |
+|                           |     |             |     |
+| Sulawesi Tengah           |     | 1743,435934 |     |
+|                           |     |             |     |
+| Sulawesi Selatan          |     | 2089,470818 |     |
+|                           |     |             |     |
+| Sulawesi Tenggara         |     | 1767,940817 |     |
+|                           |     |             |     |
+| Gorontalo                 |     | 1573,36218  |     |
+|                           |     |             |     |
+| Sulawesi Barat            |     | 1563,461459 |     |
+|                           |     |             |     |
+| Maluku                    |     | 1632,51717  |     |
+|                           |     |             |     |
+| Maluku Utara              |     | 1887,9754   |     |
+|                           |     |             |     |
+| Papua Barat               |     | 2510,293319 |     |
+|                           |     |             |     |
+| Papua                     |     | 2344,968634 |     |
+|                           |     |             |     |
+
+penelitian ini menggunakan data xxx
+
+```{r}
+#| label: fig-mpg
+#| fig-cap: "City and highway mileage for 38 popular models of cars.Color by number of cylinders"
+ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c() +
+  theme_minimal()
+```
+
+### Metode analisis
+
+Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini merbaksud mencari hubungan antara hwy dan cty. Spesifikasi yang dilakukan adalah:
+
+$$
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+$$ di mana $y_t$ adalah hwy dan $x_t$ adalah cty.
+
+## Pembahasan
+
+### Pembahasan masalah
+
+Tingkat pengangguran dan kewirausahaan merupakan dua sisi mata uang perekonomian suatu negara. Tingginya tingkat pengangguran dapat mendorong individu untuk berwirausaha sebagai alternatif mencari penghasilan dan bertahan hidup. Namun, tingginya tingkat pengangguran juga dapat menjadi hambatan bagi wirausahawan, terutama dalam hal akses modal, pelatihan, dan infrastruktur bisnis.
+
+**Pengaruh Tingkat Pengangguran terhadap Pendapatan Bersih Berusaha Sendiri**
+
+Secara umum, tingginya tingkat pengangguran dapat meningkatkan pendapatan bersih berusaha sendiri. Hal ini dapat dijelaskan oleh beberapa faktor, yaitu:
+
+-   **Motivasi ekonomi**. Individu yang menganggur akan mencari alternatif penghasilan untuk memenuhi kebutuhan hidupnya. Oleh karena itu, mereka akan bekerja lebih keras dan lebih ulet untuk mengembangkan usahanya.
+
+-   **Motivasi psikologis**. Individu yang menganggur akan merasa terpacu untuk membuktikan kemampuannya dan menciptakan lapangan kerja baru. Hal ini dapat mendorong mereka untuk bekerja lebih keras dan lebih kreatif.
+
+Namun, tingginya tingkat pengangguran juga dapat menjadi hambatan bagi wirausahawan, terutama dalam hal akses modal, pelatihan, dan infrastruktur bisnis. Hal ini dapat menurunkan pendapatan bersih berusaha sendiri.
+
+Pengaruh tingkat pengangguran terhadap pendapatan bersih berusaha sendiri dapat dipengaruhi oleh beberapa faktor, antara lain:
+
+-   **Jenis dan sektor usaha** yang dipilih wirausahawan. Fokus pada sektor informal atau UMKM mungkin membutuhkan waktu dan modal lebih sedikit, namun potensi pendapatan juga terbatas.
+
+-   **Kebijakan pemerintah** terkait pembiayaan, pelatihan, dan pendampingan wirausaha. Kebijakan yang efektif dapat menjembatani tantangan yang dihadapi wirausaha, berimplikasi langsung pada peningkatan pendapatan bersih.
+
+-   **Faktor demografi** seperti usia, jenis kelamin, dan tingkat pendidikan wirausahawan. Individu yang lebih muda, berjenis kelamin laki-laki, dan memiliki tingkat pendidikan tinggi umumnya memiliki potensi pendapatan bersih usaha yang lebih tinggi.
+
+### Analisis masalah
+
+Hasil regresinya adalah
+
+```{r}
+reg<-lm(hwy~cty,data=mpg)
+summary(reg)
+```
+
+Dapat dilihat dari tabel di atas bahwa ini bukan regresi AR(1).
+
+```{r}
+library(readxl)
+dat<-read_excel("latihan.xlsx")
+reg<-lm(Y~X,data=dat)
+summary(reg)
+```
+
+## Kesimpulan
+
+Tingkat pengangguran dapat menjadi faktor pendorong maupun penghambat bagi pendapatan bersih berusaha sendiri. Pengaruh tingkat pengangguran tersebut dapat dipengaruhi oleh beberapa faktor, seperti jenis dan sektor usaha, kebijakan pemerintah, dan faktor demografi. Untuk meningkatkan pendapatan bersih berusaha sendiri, pemerintah dapat memberikan kebijakan yang efektif untuk mendukung wirausahawan, seperti penyediaan modal, pelatihan, dan pendampingan.
+
+## Referensi
+
+<https://www.bps.go.id/id/statistics-table/1/MjIzOSMx/rata-rata-pendapatan-bersih-berusaha-sendiri-menurut-provinsi-dan-kelompok-umur–2023.html>
+
+<https://www.bps.go.id/id/statistics-table/2/NTQzIzI%253D/tingkat-pengangguran-terbuka-menurut-provinsi.html>
+
+## Mengeksport dat ke excel (jika perlu)
+
+write_xlsx(dat,"dat.xlsx")
